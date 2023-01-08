@@ -2,6 +2,10 @@
 
 insert youtube video transcripts into your roam notes.
 
+
+https://user-images.githubusercontent.com/1139703/211220555-1377fa77-6a02-46f1-9032-bd967190d50a.mp4
+
+
 ## usage
 
 after installing this plugin, you can insert transcripts from a block in two ways:
