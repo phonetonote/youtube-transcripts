@@ -1,0 +1,48 @@
+{
+  "name": "youtube-transcripts",
+  "author": {
+    "name": "scott from ptn",
+    "email": "support@phonetonote.com"
+  },
+  "version": "0.0.1",
+  "description": "get transcripts from youtube videos inside roam",
+  "main": "index.js",
+  "scripts": {
+    "prebuild:roam": "npm install",
+    "build:roam": "roamjs-scripts build --marketplace",
+    "build": "roamjs-scripts build",
+    "dev": "roamjs-scripts dev",
+    "dev:roam": "roamjs-scripts dev --marketplace",
+    "lambdas": "roamjs-scripts lambdas",
+    "preserver": "roamjs-scripts lambdas --build",
+    "server": "localhost-lambdas",
+    "start": "concurrently npm:dev npm:server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phonetonote/youtube-transcripts.git"
+  },
+  "keywords": [
+    "youtube",
+    "transcript",
+    "transcripts",
+    "subtitle",
+    "subtitles",
+    "caption",
+    "captions",
+    "closed caption",
+    "closed captions",
+    "roam research"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "roamjs-scripts": "^0.26.27",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "roamjs-components": "^0.75.1"
+  }
+}
