@@ -2,7 +2,7 @@
 
 insert youtube video transcripts into your roam notes.
 
-https://user-images.githubusercontent.com/1139703/211220591-66764f32-a243-4808-a9bf-5ecf504dc103.mp4
+https://user-images.githubusercontent.com/1139703/211221267-9c4202bf-650b-4336-8978-8a6d674eeb14.mp4
 
 ## usage
 
